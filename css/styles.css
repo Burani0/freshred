@@ -541,7 +541,60 @@ text-shadow:1px 1px #73757E;
     text-transform: uppercase;
     margin: 0px;
 }
-#sec-5 .contactUs form{
+
+
+#sec-5 .contactUs form {
+    padding: 10px 0px 1.7rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sec-5 .contactUs form label {
+    display: flex;
+    flex-direction: column;
+    color: var(--textaccent3);
+    font-weight: 600;
+    text-align: left;
+}
+
+#sec-5 .contactUs form input,
+#sec-5 .contactUs form textarea {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    color: var(--textaccent3);
+    width: 100%;
+}
+
+#sec-5 .contactUs form textarea {
+    min-height: 50px;
+    resize: vertical;
+}
+
+#sec-5 .contactUs form input:focus,
+#sec-5 .contactUs form textarea:focus {
+    box-shadow: inset 0px 0px 10px var(--txtaccent1);
+}
+
+#sec-5 .contactUs form button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--textaccent3);
+    color: var(--txtaccent5);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#sec-5 .contactUs form button:hover {
+    box-shadow: inset 0px 0px 10px var(--txtaccent1);
+}
+/* #sec-5 .contactUs form{
     padding: 10px 0px 1.7rem;
     position: relative;
 }
@@ -552,6 +605,7 @@ text-shadow:1px 1px #73757E;
     border-style: none;
     color: var(--textaccent3);
 }
+
 #sec-5 .contactUs form input[type=submit]{
     padding: 6px 20px;
     text-transform: uppercase;
@@ -575,7 +629,7 @@ text-shadow:1px 1px #73757E;
     padding: 0px 6px;
     position: absolute;
     bottom: 2px;
-}
+} */
 .invalid{
     box-shadow: inset 0px 0px 10px #e67a7a;
 }
