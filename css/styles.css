@@ -11,7 +11,7 @@ html {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-:root{
+/* :root{
     --txtaccent: #fff;
     --txtaccent1: #9D9D9F;
     --textaccent2: #73757E;
@@ -23,7 +23,26 @@ html {
     --haccent2: #C79E23;
     --bgaccent: #1A1C27;
     --bgaccent_withOpacity: rgba(26, 28, 39,0.96);
+} */
+
+:root{
+    --txtaccent: #ffffff;
+    --txtaccent1: #d9d9d9;
+    --textaccent2: #9ca3af;
+    --textaccent3: #1f2937;
+    --txtaccent4: #000000;
+    --txtaccent5: #f5f5f5;
+
+    /* FreshRed Brand Colors */
+    --haccent: #0b9444;                /* Main Green */
+    --haccent_withOpacity: rgba(11,148,68,0.75);
+    --haccent2: #ff1e24;               /* Main Red */
+
+    /* Dark Green for headers/footer */
+    --bgaccent: #066a31;
+    --bgaccent_withOpacity: rgba(6,106,49,0.95);
 }
+
 .container{
     width: 95%;
     margin: 0px auto;
@@ -107,7 +126,7 @@ html {
     font-size: 1.5rem;
     font-style: italic;
     font-weight: bold;
-    color: var(--haccent);
+    color: var(--haccent2);
     padding: 0px;
     margin: 0px;
 }
@@ -397,7 +416,9 @@ text-shadow:1px 1px #73757E;
 }
 /* SECTION 4 */
 #sec-4{
-    background: linear-gradient(rgba(78, 76, 70, 0.8),rgba(78, 76, 70, 0.8)), url(../Images/images21.jpg) no-repeat center center/cover;
+    /* background: linear-gradient(rgba(78, 76, 70, 0.8),rgba(78, 76, 70, 0.8)) */
+    
+    background: linear-gradient(rgba(6,106,49,0.85),rgba(6,106,49,0.85)), url(../Images/images21.jpg) no-repeat center center/cover;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 4rem;
@@ -771,7 +792,7 @@ text-shadow:1px 1px #73757E;
     color: var(--txtaccent5);
 }
 #sec-7 p span{
-    color: var(--haccent);
+    color: var(--haccent2);
 }
 
 /*MEDIA QUERRIES*/
