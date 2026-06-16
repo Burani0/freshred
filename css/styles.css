@@ -34,7 +34,7 @@ html {
     --txtaccent5: #f5f5f5;
 
     /* FreshRed Brand Colors */
-    --haccent: #0b9444;                /* Main Green */
+    --haccent: #48a06d;                /* Main Green */
     --haccent_withOpacity: rgba(11,148,68,0.75);
     --haccent2: #ff1e24;               /* Main Red */
 
@@ -333,7 +333,7 @@ html {
 #sec-2 article figure div:first-of-type{
     width: 10em;
     height: 10em;
-    background-color: var(--haccent2);
+    background-color: var(--haccent);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -350,7 +350,7 @@ font-size: 1.2rem;
 text-transform: uppercase;
 font-weight: 700;
 margin-bottom: 10px;
-color: var(--haccent2);
+color: var(--txtaccent);
 }
 #sec-2 article figure p{
 color: var(--txtaccent);
